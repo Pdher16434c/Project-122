@@ -22,14 +22,14 @@ draw_circle = "set";
 if(content == "rectangle"){
     x = Math.floor(Math.random()*900);
     y = Math.floor(Math.random()*600);
-    document.getElementById("stiatus").innerHTML = "Started Drawing a big rectangle";
+    document.getElementById("status").innerHTML = "Started Drawing a big rectangle";
     draw_circle = "set";
 }
 }
 if(content == "square"){
     x = Math.floor(Math.random()*900);
     y = Math.floor(Math.random()*600);
-    document.getElementById("stiatus").innerHTML = "Started Drawing a big square";
+    document.getElementById("status").innerHTML = "Started Drawing a big square";
     draw_circle = "set";
 }
 function setup(){
